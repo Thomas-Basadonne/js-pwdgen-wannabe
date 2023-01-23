@@ -9,4 +9,16 @@ console.log(colore);
 
 let profile = ` Ciao ${nome}${cognome}${colore}23`;
 
-document.getElementById("info_utente").innerHTML = profile
+// let info_utente = nome + cognome + colore + "23";
+
+// let profile = "Grazie, \n la tua password è:" + profile;
+
+document.getElementById("info_utente").innerHTML = profile;
+
+
+// opzione literals
+// let info_utente = `
+// Grazie,
+// la password sicura è: ${nome}${cognome}${colore}23`;
+
+console.log(profile);
